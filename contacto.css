@@ -1,0 +1,102 @@
+body {
+    background-image: url(./Imagenes/ult-background.png);
+    background-size: 100%;
+    margin: 0px;
+}
+
+header {
+    height: 10vh;
+    color: white;
+    font-size: 25px;
+    opacity: .7;
+    background-color: black;
+}
+
+#ul-list {
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.li-list {
+    margin: 0px 60px;
+    font-weight: lighter;
+}
+
+.li-list a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    font-family: 'Oswald';
+    font-size: 70px;
+    color: rgb(223, 221, 69);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+input {
+    height: 30px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+}
+
+label {
+    text-align: center;
+    font-family: 'PT Serif';
+    font-size: 20px;
+    color: white;
+}
+
+textarea {
+    height: 80px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#label2 {
+    margin-top: 10px;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    width: 140px;
+    margin: auto;
+    padding: 8px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-bottom: solid 1px;
+}
+
+#yoyo {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: -290px 0px 0px 450px;
+}

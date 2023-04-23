@@ -1,0 +1,80 @@
+body {
+    background-image: url(./Imagenes/pilates6.jpg);
+    background-size: 100%;
+    margin: 0px;
+}
+
+header {
+    height: 10vh;
+    color: white;
+    font-size: 25px;
+    opacity: .7;
+    background-color: black;
+}
+
+#ul-list {
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.li-list {
+    margin: 0px 60px;
+    font-weight: lighter;
+}
+
+.li-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.div-clases {
+    width: 330px;
+    background-color: bisque;
+    opacity: .8;
+    position: absolute;
+    padding: 20px 30px;
+}
+
+.div-clases:nth-child(1) {
+    margin: 300px 0px 0px 350px;
+    font-size: 10px;
+    text-align: center;
+    animation-name: clases1;
+    animation-duration: 2s;
+}
+
+@keyframes clases1 {
+    from {
+        margin-left: -500px;
+        opacity: .2;
+    }
+    to {
+        margin-left: 350px;
+        transform: rotate(360deg);
+        opacity: .8;
+    }
+}
+
+.div-clases:nth-child(2) {
+    font-size: 10px;
+    text-align: center;
+    margin: 300px 0px 0px 1470px;
+    animation-name: clases2;
+    animation-duration: 2s;
+}
+
+@keyframes clases2 {
+    from {
+        margin-left: 2400px;
+        opacity: .2;
+    }
+    to {
+        margin-left: 1470px;
+        transform: rotate(360deg);
+        opacity: .8;
+    }
+}

@@ -1,0 +1,75 @@
+body {
+    background-image: url(./Imagenes/pilates3.png);
+    background-size: 100%;
+    margin: 0px;
+}
+
+header {
+    height: 10vh;
+    color: white;
+    font-size: 25px;
+    opacity: .7;
+    background-color: black;
+}
+
+#ul-list {
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.li-list {
+    margin: 0px 60px;
+    font-weight: lighter;
+}
+
+.li-list a {
+    text-decoration: none;
+    color: white;
+}
+
+#parrafo {
+    width: 40%;
+    background-color: rgb(241, 142, 28);
+    opacity: .7;
+    color: white;
+    padding: 40px 10px;
+    position: absolute;
+    margin: 130px 0px 0px 130px;
+    font-family:  'Oswald';
+    font-size: larger;
+    text-align: justify;
+    animation-name: paratraslate;
+    animation-duration: 1.5s;
+}
+
+.parrafo-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo-div img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 40px;
+    cursor: pointer;
+}
+
+@keyframes paratraslate {
+    from {
+        margin-left: 300px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 130px;
+        opacity: .7;
+    }
+}
+
+span {
+    color: black;
+}
